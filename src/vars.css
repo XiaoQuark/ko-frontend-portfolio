@@ -1,0 +1,11 @@
+:root {
+	/* Colours  */
+	--color-dark: #0d0106; /* licorice */
+	--color-primary: #3626a7; /* zafre */
+	--color-secondary: #657ed4; /* glaucous */
+	--color-pop: #ec3b5f; /* amaranth */
+	--color-light: #edf7f6; /* azure */
+
+	/* Fonts */
+	--font-space: "Space Mono";
+}
