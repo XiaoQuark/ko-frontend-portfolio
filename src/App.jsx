@@ -1,19 +1,15 @@
-import styles from "./App.module.css";
-import { About } from "./components/About/About";
+import "./App.css";
+import { Header } from "./components/Header/Header";
 import { Hero } from "./components/Hero/Hero";
-import { Navbar } from "./components/Navbar/Navbar";
 
 function App() {
 	return (
-		<div className={styles.App}>
-			<header>
-				<Navbar />
-			</header>
-			<main>
+		<>
+			<Header />
+			<main className="main">
 				<Hero />
-				<About />
 			</main>
-		</div>
+		</>
 	);
 }
 

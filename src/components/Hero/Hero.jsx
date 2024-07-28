@@ -1,31 +1,21 @@
 import React from "react";
-import styles from "./Hero.module.css";
-import { getImageUrl } from "../../utils";
+import "./Hero.css";
+import { Social } from "./Social";
+import { Data } from "./Data";
+import { ScrollDown } from "./ScrollDown";
 
-export const Hero = () => {
+export function Hero() {
 	return (
-		<section className={styles.container}>
-			<div className={styles.content}>
-				<h1 className={styles.title}>Hi, I'm Kris</h1>
-				<p className={styles.description}>
-					I'm a Frontend and Game Developer
-				</p>
-				<p className={styles.description}>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit.
-					Cum, minus.
-				</p>
-				<a
-					className={styles.contactBtn}
-					href="mailto:kris.oldrini@gmail.com"
-				>
-					Contact Me
-				</a>
+		<section className="hero section" id="home">
+			<div className="hero-container container grid">
+				<div className="hero-content grid">
+					<Social />
+					<div className="hero-img"></div>
+					<Data />
+				</div>
+				<ScrollDown />
 			</div>
-			<img
-				src={getImageUrl("hero/heroImage.png")}
-				alt="Hero image of me"
-				className={styles.heroImg}
-			/>
+			{/* <img src="" alt="Hero image of me" className="" /> */}
 		</section>
 	);
-};
+}
