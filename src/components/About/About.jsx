@@ -1,62 +1,28 @@
 import React from "react";
-import { getImageUrl } from "../../utils";
-
-import styles from "./About.css";
+import "./About.css";
+import AboutImg from "../../../assets/about/me-web.jpg";
+import CV from "../../../assets/about/kris-oldrini-CV.pdf";
+import { Info } from "./Info";
 
 export const About = () => {
 	return (
-		<section className={styles.container} id="about">
-			<h2 className={styles.title}>About Me</h2>
-			<div className={styles.content}>
-				<img
-					src={getImageUrl("about/aboutImage.png")}
-					alt="Me sitting with a laptop"
-					className={styles.aboutImg}
-				/>
-				<ul className={styles.aboutItems}>
-					<li className={styles.aboutItem}>
-						<img
-							src={getImageUrl("about/cursorIcon.png")}
-							alt="Cursor icon"
-						/>
-						<div className={styles.aboutItemText}>
-							<h3>Frontend Developer</h3>
-							<p>
-								Lorem ipsum dolor sit amet consectetur,
-								adipisicing elit. Quam delectus necessitatibus
-								dolorum ducimus laboriosam voluptatem.
-							</p>
-						</div>
-					</li>
-					<li className={styles.aboutItem}>
-						<img
-							src={getImageUrl("about/uiIcon.png")}
-							alt="UI icon"
-						/>
-						<div className={styles.aboutItemText}>
-							<h3>UX/UI Designer</h3>
-							<p>
-								Lorem ipsum dolor sit amet consectetur,
-								adipisicing elit. Quam delectus necessitatibus
-								dolorum ducimus laboriosam voluptatem.
-							</p>
-						</div>
-					</li>
-					<li className={styles.aboutItem}>
-						<img
-							src={getImageUrl("about/serverIcon.png")}
-							alt="Server icon"
-						/>
-						<div className={styles.aboutItemText}>
-							<h3>Game Developer</h3>
-							<p>
-								Lorem ipsum dolor sit amet consectetur,
-								adipisicing elit. Quam delectus necessitatibus
-								dolorum ducimus laboriosam voluptatem.
-							</p>
-						</div>
-					</li>
-				</ul>
+		<section className="about section" id="about">
+			<h2 className="section-title">About Me</h2>
+			<span className="section-subtitle">My Introduction</span>
+			<div className="about-container container grid">
+				<img src={AboutImg} alt="" className="about-img" />
+				<div className="about-data">
+					<p className="about-description">
+						Frontend Developer with a passion for Arts, Education
+						and Sustainability. With a previous career in fashion
+						design and production I offer a unique sense of
+						creativity and highly professional attitude.
+					</p>
+					<Info />
+					<a download="" href={CV} className="button button-flex">
+						Download my CV
+					</a>
+				</div>
 			</div>
 		</section>
 	);
