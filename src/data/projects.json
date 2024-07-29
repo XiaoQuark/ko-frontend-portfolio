@@ -1,0 +1,69 @@
+[
+	{
+		"id": "project-1",
+		"imagePath": "projects/project.png",
+		"title": "ekanS",
+		"category": ["video game"],
+		"techStack": ["Godot", "Firebase Authentication", "Cloud Firestore"],
+		"status": "Try Demo",
+		"link": "",
+		"repo": "https://github.com/house-of-the-badger/ekansREBORN",
+		"description": "Classic Snake game... in reverse!",
+		"presentation": ""
+	},
+	{
+		"id": "project-2",
+		"imagePath": "projects/project.png",
+		"title": "XQ News",
+		"category": ["web"],
+		"techStack": [
+			"PostgreSQL",
+			"JavaScript",
+			"Express.JS",
+			"Axios",
+			"Supabase",
+			"Render",
+			"React.JS",
+			"Vite",
+			"Netlify"
+		],
+		"status": "Live Demo",
+		"link": "",
+		"repo": "https://github.com/XiaoQuark/nc-news-frontend",
+		"description": "A social media inspired by Reddit",
+		"presentation": ""
+	},
+	{
+		"id": "project-3",
+		"imagePath": "projects/project.png",
+		"title": "Artilab Gallery",
+		"category": ["web"],
+		"techStack": ["WordPress", "HTML", "CSS", "MySQL", "Figma"],
+		"status": "Visit Website",
+		"link": "https://www.artilab.gallery/",
+		"description": "Website for an art gallery in Milan",
+		"presentation": ""
+	},
+	{
+		"id": "project-4",
+		"imagePath": "projects/project.png",
+		"title": "Glauco Baruzzi",
+		"category": ["web"],
+		"techStack": ["WordPress", "HTML", "CSS", "MySQL", "Figma"],
+		"status": "Prototype",
+		"link": "https://www.figma.com/proto/DgxCWlcKglKD6C2t5ZjMfe/glauco_baruzzi?page-id=0%3A1&node-id=16-25&viewport=307%2C204%2C0.03&t=WTIlt3tfbMGIn4XV-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=16%3A3",
+		"description": "Artist's portfolio project",
+		"presentation": ""
+	},
+	{
+		"id": "project-5",
+		"imagePath": "projects/project.png",
+		"title": "Hilary King",
+		"category": ["web"],
+		"techStack": ["Webflow", "HTML", "CSS", "MySQL", "Figma"],
+		"status": "Live Demo",
+		"link": "https://hilary-king.webflow.io/",
+		"description": "Mid Century Murders: Web project for a game that will one day exist",
+		"presentation": ""
+	}
+]
