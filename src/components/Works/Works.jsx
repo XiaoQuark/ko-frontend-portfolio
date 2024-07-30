@@ -6,7 +6,7 @@ import categories from "../../data/categories.json";
 import { Modal } from "./Modal";
 
 export function Works() {
-	const [modalOpen, setModalOpen] = useState(false);
+	// const [modalActive, setModalActive] = useState(false);
 	const [projectFilter, setProjectFilter] = useState("all");
 
 	return (
@@ -24,26 +24,21 @@ export function Works() {
 			</ul>
 			<div className="works-container container grid">
 				{projects.map((project) => {
-					return (
-						<Project
-							project={project}
-							setModalOpen={setModalOpen}
-							key={project.id}
-						/>
-					);
+					return <Project project={project} key={project.id} />;
 				})}
 			</div>
-			<div className="works-modal">
+			{/* <div className="works-modal">
 				{projects.map((project) => {
 					return (
 						<Modal
 							project={project}
-							modalOpen={modalOpen}
+							modalActive={modalActive}
+							setModalActive={setModalActive}
 							key={project.id}
 						/>
 					);
 				})}
-			</div>
+			</div> */}
 		</section>
 	);
 }

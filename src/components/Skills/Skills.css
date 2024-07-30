@@ -51,7 +51,7 @@
 } */
 
 /* Breakpoints */
-@media screen and (max-width: 922px) {
+@media screen and (max-width: 992px) {
 	.skills-container {
 		grid-template-columns: max-content;
 		row-gap: 2rem;
