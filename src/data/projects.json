@@ -59,7 +59,7 @@
 		"id": "project-5",
 		"imagePath": "projects/project.png",
 		"title": "Hilary King",
-		"category": ["web"],
+		"category": ["web", "video game"],
 		"techStack": ["Webflow", "HTML", "CSS", "MySQL", "Figma"],
 		"status": "Live Demo",
 		"link": "https://hilary-king.webflow.io/",
