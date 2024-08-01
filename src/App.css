@@ -6,7 +6,7 @@
 	--hue: 0;
 	--sat: 0%;
 	--title-colour: hsl(var(--hue), var(--sat), 20%);
-	--title_colour_dark: hsl(var(--hue), var(--sat), 0%);
+	--title-colour-dark: hsl(var(--hue), var(--sat), 0%);
 	--text-colour: hsl(var(--hue), var(--sat), 46%);
 	--body-colour: hsl(var(--hue), var(--sat), 98%);
 	--container-colour: #fff;
@@ -169,7 +169,7 @@ img {
 }
 
 .button:hover {
-	background-color: var(--title_colour_dark);
+	background-color: var(--title-colour-dark);
 }
 
 .button-icon {

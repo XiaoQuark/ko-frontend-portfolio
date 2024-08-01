@@ -24,7 +24,7 @@ export function Works() {
 
 	return (
 		<section className="works section" id="works">
-			<h2 className="section-title">Portfolio</h2>
+			<h2 className="section-title">Works</h2>
 			<span className="section-subtitle">My most recent projects</span>
 			<div>
 				<WorkFilters categories={categories} setFilter={setFilter} />
