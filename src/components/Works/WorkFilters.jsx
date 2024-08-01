@@ -4,7 +4,7 @@ export function WorkFilters({ categories, setFilter }) {
 	const [active, setActive] = useState(0);
 
 	const handleClick = (e, index) => {
-		setFilter({ name: e.target.textContent });
+		setFilter({ name: e.target.textContent.toLowerCase() });
 		setActive(index);
 	};
 

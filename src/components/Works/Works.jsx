@@ -15,7 +15,9 @@ export function Works() {
 			setProjects(projectsData);
 		} else {
 			const filteredProjects = projectsData.filter((project) => {
-				return project.category.some((item) => item === filter.name);
+				return project.category.some(
+					(item) => item.toLocaleLowerCase() === filter.name
+				);
 			});
 			console.log(filteredProjects);
 			setProjects(filteredProjects);
