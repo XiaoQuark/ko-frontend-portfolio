@@ -4,7 +4,7 @@
 }
 
 .footer-container {
-	padding: 2rem 0 3rem;
+	padding: 2rem 0 2rem;
 }
 
 .footer-title,
@@ -14,7 +14,7 @@
 
 .footer-title {
 	text-align: center;
-	margin-bottom: var(--bm-2);
+	margin-bottom: var(--bm-1-5);
 }
 
 .footer-link:hover {
@@ -25,7 +25,7 @@
 	display: flex;
 	justify-content: center;
 	column-gap: 1.5rem;
-	margin-bottom: var(--bm-2);
+	margin-bottom: var(--bm-1-5);
 }
 
 .footer-social {
@@ -47,7 +47,8 @@
 
 .footer-copy {
 	display: block;
-	margin-top: 2.5rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
 	color: var(--title-colour);
 	text-align: center;
 	font-size: var(--smaller-font-size);

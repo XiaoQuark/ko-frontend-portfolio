@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import Swal from "sweetalert2";
 import { UilArrowRight } from "@iconscout/react-unicons";
 import "./Contacts.css";
 
@@ -9,18 +10,56 @@ export function Contacts() {
 	const sendEmail = (e) => {
 		e.preventDefault();
 
-		emailjs.sendForm("service_p68nyps", "template_lt39ey9", form.current, {
-			publicKey: "YoRYUiKa30VPW9KEW",
-		});
-		e.target.reset().then(
-			() => {
-				console.log("SUCCESS!");
-			},
-			(error) => {
-				console.log("FAILED...", error.text);
-			}
-		);
+		emailjs
+			.sendForm("service_p68nyps", "template_lt39ey9", form.current, {
+				publicKey: "YoRYUiKa30VPW9KEW",
+			})
+			.then(
+				() => {
+					console.log("SUCCESS!");
+					e.target.reset();
+					Swal.fire({
+						title: "SUCCESS!",
+						text: "Your message was sent successfully!",
+						icon: "success",
+					});
+				},
+				(error) => {
+					console.log("FAILED...", error.text);
+					Swal.fire({
+						icon: "error",
+						title: "Oops...",
+						text: "Something went wrong! Try again.",
+					});
+				}
+			);
 	};
+
+	// const [result, setResult] = React.useState("");
+
+	// const onSubmit = async (event) => {
+	// 	event.preventDefault();
+	// 	setResult("Sending....");
+	// 	const formData = new FormData(event.target);
+
+	// 	formData.append("access_key", "07216096-d0ae-41bb-851a-3f743768b76e");
+
+	// 	const response = await fetch("https://api.web3forms.com/submit", {
+	// 		method: "POST",
+	// 		body: formData,
+	// 	});
+
+	// 	const data = await response.json();
+
+	// 	if (data.success) {
+	// 		setResult("Form Submitted Successfully");
+	// 		event.target.reset();
+	// 	} else {
+	// 		console.log("Error", data);
+	// 		setResult(data.message);
+	// 	}
+	// };
+
 	return (
 		<section className="contacts section" id="contacts">
 			<h2 className="section-title">Contacts</h2>
@@ -77,6 +116,7 @@ export function Contacts() {
 								name="name"
 								className="contact-form-input"
 								placeholder="Jessica Fletcher"
+								required
 							/>
 						</div>
 						<div className="contact-form-div">
@@ -86,8 +126,10 @@ export function Contacts() {
 							<input
 								type="email"
 								name="email"
+								pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$"
 								className="contact-form-input"
 								placeholder="mrsfletcher@email.com"
+								required
 							/>
 						</div>
 						<div className="contact-form-div contact-form-area">
@@ -100,6 +142,7 @@ export function Contacts() {
 								rows="10"
 								className="contact-form-input"
 								placeholder="Hi, ..."
+								required
 							></textarea>
 						</div>
 						<button className="button button-flex">

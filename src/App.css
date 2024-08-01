@@ -23,7 +23,7 @@
 		"Lucida Sans Unicode", sans-serif;
 
 	/* Font size */
-	--big-font-size: 3.5rem;
+	--big-font-size: 3.25rem;
 	--h1-font-size: 2.25rem;
 	--h2-font-size: 1.5rem;
 	--h3-font-size: 1.25rem;
@@ -163,8 +163,8 @@ img {
 	display: inline-block;
 	background-color: var(--title-colour);
 	color: var(--container-colour);
-	padding: 1.25rem 2rem;
-	border-radius: 1rem;
+	padding: 1rem 1rem;
+	border-radius: 0.75rem;
 	font-weight: var(--font-dark-weight);
 }
 
@@ -181,13 +181,15 @@ img {
 	align-items: center;
 }
 /* Breakpoints */
-@media screen and (max-width: 922px) {
+@media screen and (max-width: 992px) {
 	.container {
 		margin-left: var(--bm-1-5);
 		margin-right: var(--bm-1-5);
 	}
 	.button {
-		padding: 1rem 1.75rem;
+		padding: 0.75rem 0.75rem;
+		font-size: var(--normal-font-size);
+		border-radius: 0.5rem;
 	}
 
 	.button-icon {

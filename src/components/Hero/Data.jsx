@@ -25,7 +25,9 @@ export function Data() {
 					</g>
 				</svg>
 			</h1>
-			<p className="hero-subtitle">I'm a Frontend and Game Developer</p>
+			<p className="hero-subtitle">
+				Frontend Developer and Digital Designer
+			</p>
 			<p className="hero-description">
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum,
 				minus.
