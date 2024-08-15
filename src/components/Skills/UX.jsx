@@ -3,7 +3,11 @@ import React from "react";
 export const UX = () => {
 	return (
 		<div className="skills-content">
-			<h3 className="skills-title">UX/UI Designer</h3>
+			<h3 className="skills-title">UX/UI</h3>
+			<p className="skill-description">
+				I design intuitive and visually appealing user experiences,
+				focusing on seamless functionality and aesthetics.
+			</p>
 			<div className="skills-box">
 				<div className="skills-group">
 					<div className="skills-data">

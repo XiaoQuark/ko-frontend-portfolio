@@ -69,6 +69,11 @@
 	margin-bottom: var(--bm-2);
 }
 
+.project-category-list {
+	display: flex;
+	gap: 2rem;
+}
+
 .project-button {
 	color: var(--title-colour);
 	font-size: var(--small-font-size);

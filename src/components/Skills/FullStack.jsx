@@ -1,13 +1,9 @@
 import React from "react";
 
-export const Frontend = () => {
+export const FullStack = () => {
 	return (
 		<div className="skills-content">
-			<h3 className="skills-title">Frontend</h3>
-			<p className="skill-description">
-				I create responsive, user-friendly interfaces with a focus on
-				delivering engaging and accessible user experiences.
-			</p>
+			<h3 className="skills-title">Full Stack</h3>
 			<div className="skills-box">
 				<div className="skills-group">
 					<div className="skills-data">
@@ -43,7 +39,7 @@ export const Frontend = () => {
 					<div className="skills-data">
 						<i class="bx bx-badge-check"></i>
 						<div>
-							<h3 className="skills-name">Chakra UI</h3>
+							<h3 className="skills-name">Git</h3>
 							<span className="skills-level"></span>
 						</div>
 					</div>

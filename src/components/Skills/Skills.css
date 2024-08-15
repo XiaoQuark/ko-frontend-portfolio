@@ -1,5 +1,5 @@
 .skills-container {
-	grid-template-columns: repeat(2, 350px);
+	grid-template-columns: repeat(3, 300px);
 	column-gap: 3rem;
 	justify-content: center;
 }
@@ -7,7 +7,7 @@
 .skills-content {
 	background-color: var(--container-colour);
 	border: 1px solid rgba(0, 0, 0, 0.1);
-	padding: 2rem 4rem;
+	padding: 2rem 2rem;
 	border-radius: 1.25rem;
 }
 
@@ -18,10 +18,16 @@
 	margin-bottom: var(--bm-1-5);
 }
 
+.skill-description {
+	font-size: var(--small-font-size);
+	margin-bottom: var(--bm-1-5);
+	text-align: center;
+}
+
 .skills-box {
 	display: flex;
 	justify-content: center;
-	column-gap: 2.5rem;
+	column-gap: 2rem;
 }
 
 .skills-group {

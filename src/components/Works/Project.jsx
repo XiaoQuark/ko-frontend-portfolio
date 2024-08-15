@@ -15,7 +15,16 @@ export function Project({ project }) {
 			<div className="project-content">
 				<h3 className="project-title">{project.title}</h3>
 				<p className="project-description">{project.description}</p>
-				<p className="project-category">{project.category}</p>
+				<div className="project-category-list">
+					{project.category.map((item, index) => {
+						return (
+							<p key={index} className="project-category">
+								{item}
+							</p>
+						);
+					})}
+				</div>
+
 				<span
 					className="project-button"
 					onClick={() => setModalActive(true)}

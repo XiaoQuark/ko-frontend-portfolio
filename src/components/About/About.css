@@ -1,13 +1,13 @@
 .about-container {
-	grid-template-columns: repeat(2, 1fr);
-	align-items: center;
+	grid-template-columns: 1fr 1.1fr;
+	align-items: initial;
 	column-gap: 4rem;
 }
 
 .about-img {
-	width: 350px;
+	width: 400px;
 	border-radius: 1.5rem;
-	justify-self: center;
+	justify-self: baseline;
 }
 
 .about-info {
@@ -40,8 +40,7 @@
 }
 
 .about-description {
-	padding: 0 4rem 0 0;
-	margin-bottom: var(--bm-2);
+	margin-bottom: var(--bm-1-5);
 }
 
 /* Breakpoints */

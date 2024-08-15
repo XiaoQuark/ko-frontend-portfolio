@@ -26,11 +26,11 @@ export function Data() {
 				</svg>
 			</h1>
 			<p className="hero-subtitle">
-				Frontend Developer and Digital Designer
+				Software Developer and Digital Designer
 			</p>
 			<p className="hero-description">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum,
-				minus.
+				Blending creativity with technology to build engaging digital
+				experiences.
 			</p>
 			<a href="#contacts" className="button button-flex">
 				Say Hello!
