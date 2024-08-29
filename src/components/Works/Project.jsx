@@ -1,15 +1,16 @@
 import React, { useState } from "react";
 import { Modal } from "./Modal";
 import { UilArrowRight } from "@iconscout/react-unicons";
-// import getImageUrl from "../../utils";
+import { getImageUrl } from "../../utils.js";
 
 export function Project({ project }) {
 	const [modalActive, setModalActive] = useState(false);
+	console.log(getImageUrl);
 	return (
 		<div className="project-card" key={project.id}>
 			<img
-				src="../../../assets/projects/project.png"
-				alt=""
+				src={getImageUrl(project.imagePath)}
+				alt={project.title}
 				className="project-img"
 			/>
 			<div className="project-content">

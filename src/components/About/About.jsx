@@ -13,9 +13,9 @@ export const About = () => {
 				<img src={AboutImg} alt="" className="about-img" />
 				<div className="about-data">
 					<p className="about-description">
-						I’m Kris, a software developer with a strong passion for
-						creativity, education, and sustainability. My journey
-						began in fashion design and production, where I
+						I’m Kris, a full-stack developer with a strong passion
+						for creativity, education, and sustainability. My
+						journey began in fashion design and production, where I
 						developed an artistic eye and a keen attention to
 						detail. Growing up in Italy, surrounded by art and
 						creativity, I was naturally drawn to design, but my

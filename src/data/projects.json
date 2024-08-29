@@ -1,7 +1,7 @@
 [
 	{
 		"id": "project-1",
-		"imagePath": "projects/project.png",
+		"imagePath": "projects/ekans-cover.jpg",
 		"title": "ekanS",
 		"category": ["video game"],
 		"techStack": ["Godot", "Firebase Authentication", "Cloud Firestore"],
@@ -35,7 +35,7 @@
 	},
 	{
 		"id": "project-3",
-		"imagePath": "projects/project.png",
+		"imagePath": "projects/artilab-cover.png",
 		"title": "Artilab Gallery",
 		"category": ["web"],
 		"techStack": [
