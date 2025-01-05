@@ -3,9 +3,12 @@
 		"name": "all"
 	},
 	{
-		"name": "video game"
+		"name": "web"
 	},
 	{
-		"name": "web"
+		"name": "games"
+	},
+	{
+		"name": "UX"
 	}
 ]

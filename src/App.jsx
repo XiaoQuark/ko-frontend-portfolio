@@ -15,7 +15,7 @@ function App() {
 			<main className="main">
 				<Hero />
 				<About />
-				<Skills />
+				{/* <Skills /> */}
 				<Works />
 				<Contacts />
 			</main>

@@ -1,5 +1,6 @@
-import React from "react";
 import { UilArrowRight, UilMultiply } from "@iconscout/react-unicons";
+import PropTypes from 'prop-types';
+
 
 export function Modal({ project, modalActive, setModalActive }) {
 	return (
@@ -20,9 +21,9 @@ export function Modal({ project, modalActive, setModalActive }) {
 						return <li className="tech-stack-item">{tech}</li>;
 					})}
 				</ul>
-				{project.link ? (
-					<a href={project.link} className="project-button">
-						{project.status}{" "}
+				{project.links ? (
+					<a href={project.links.url} className="project-button">
+						{project.links.type}{" "}
 						<UilArrowRight className="project-button-icon" />
 					</a>
 				) : (

@@ -1,7 +1,9 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Modal } from "./Modal";
 import { UilArrowRight } from "@iconscout/react-unicons";
 import { getImageUrl } from "../../utils.js";
+import PropTypes from 'prop-types';
+
 
 export function Project({ project }) {
 	const [modalActive, setModalActive] = useState(false);
@@ -9,7 +11,7 @@ export function Project({ project }) {
 	return (
 		<div className="project-card" key={project.id}>
 			<img
-				src={getImageUrl(project.imagePath)}
+				src={getImageUrl(project.coverImg)}
 				alt={project.title}
 				className="project-img"
 			/>
@@ -24,7 +26,7 @@ export function Project({ project }) {
 							</p>
 						);
 					})}
-				</div>
+			</div>
 
 				<span
 					className="project-button"
@@ -43,4 +45,8 @@ export function Project({ project }) {
 			</div>
 		</div>
 	);
+}
+
+Project.PropTypes = {
+	project: PropTypes.object
 }

@@ -46,7 +46,7 @@ export function Header() {
 								About
 							</a>
 						</li>
-						<li className="nav item">
+						{/* <li className="nav item">
 							<a
 								href="#skills"
 								onClick={() => setActiveNav("#skills")}
@@ -58,7 +58,7 @@ export function Header() {
 							>
 								Skills
 							</a>
-						</li>
+						</li> */}
 						<li className="nav item">
 							<a
 								href="#works"

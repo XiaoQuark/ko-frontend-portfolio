@@ -1,77 +1,346 @@
 [
-	{
-		"id": "project-1",
-		"imagePath": "projects/ekans-cover.jpg",
-		"title": "ekanS",
-		"category": ["video game"],
-		"techStack": ["Godot", "Firebase Authentication", "Cloud Firestore"],
-		"status": "Try Demo",
-		"link": "",
-		"repo": "https://github.com/house-of-the-badger/ekansREBORN",
-		"description": "Classic Snake game... in reverse!",
-		"presentation": "ekanS is a fresh twist on the classic Snake game... played in reverse! Developed as part of a bootcamp project, it allowed our team to dive into Object Oriented Programming and explore game development with the GoDot engine. Players can log in, choose an avatar, and navigate through six challenging levels using swipe gestures. We’ve implemented Firebase for user authentication and data storage, ensuring a smooth and secure experience. Future updates will include additional levels, a leaderboard, and more game modes. The project emphasized team collaboration and version control through GitHub, with Trello and Figma guiding our planning and design."
-	},
-	{
-		"id": "project-2",
-		"imagePath": "projects/project.png",
-		"title": "XQ News",
-		"category": ["web"],
-		"techStack": [
-			"PostgreSQL",
-			"JavaScript",
-			"Express.JS",
-			"Axios",
-			"Supabase",
-			"Render",
-			"React.JS",
-			"Vite",
-			"Netlify"
-		],
-		"status": "Live Demo",
-		"link": "",
-		"repo": "https://github.com/XiaoQuark/nc-news-frontend",
-		"description": "A social media inspired by Reddit",
-		"presentation": "XQ News is a Reddit-inspired social media platform, developed to showcase full-stack capabilities. Built with React.js and Express.js, it features efficient data management and real-time user interactions through a custom API. The application handles complex data queries, providing a dynamic and responsive user experience across devices. Designed with a mobile-first approach, XQ News ensures seamless navigation and usability, making it a robust example of modern web development."
-	},
-	{
-		"id": "project-3",
-		"imagePath": "projects/artilab-cover.png",
-		"title": "Artilab Gallery",
-		"category": ["web"],
-		"techStack": [
-			"WordPress",
-			"HTML",
-			"CSS",
-			"MySQL",
-			"MailerLite",
-			"SEO",
-			"Figma"
-		],
-		"status": "Visit Website",
-		"link": "https://www.artilab.gallery/",
-		"description": "Website for an art gallery in Milan",
-		"presentation": "I revitalized Artilab Gallery's online presence with a modern, responsive website that reflects the sophistication of Milan's contemporary art scene. The redesign aligns with the gallery's new branding, emphasizing user-centric design and current web trends. Inspired by their new minimalistic logo, I crafted a website that showcases exhibitions, artist profiles, and events, with plans to integrate an e-commerce section for online sales."
-	},
-	{
-		"id": "project-4",
-		"imagePath": "projects/project.png",
-		"title": "Hilary King",
-		"category": ["web", "video game"],
-		"techStack": ["Webflow", "HTML", "CSS", "MySQL", "Figma"],
-		"status": "Live Demo",
-		"link": "https://hilary-king.webflow.io/",
-		"description": "Mid Century Murders: Web project for a game that will one day exist",
-		"presentation": "Hilary King Mysteries is a passion project born from my love for adventure games and mid-century aesthetics. Originally conceived as a comic, I developed a website during my Digital Media studies to bring the character and her world to life. The design draws inspiration from 1950s comic strips, featuring a unique horizontal scrolling layout that reflects my personal style. While the current design captures the era’s charm, I am working on a responsive redesign to enhance accessibility and usability."
-	},
-	{
-		"id": "project-5",
-		"imagePath": "projects/project.png",
-		"title": "Glauco Baruzzi",
-		"category": ["web"],
-		"techStack": ["WordPress", "HTML", "CSS", "MySQL", "Figma"],
-		"status": "Prototype",
-		"link": "https://www.figma.com/proto/DgxCWlcKglKD6C2t5ZjMfe/glauco_baruzzi?page-id=0%3A1&node-id=16-25&viewport=307%2C204%2C0.03&t=WTIlt3tfbMGIn4XV-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=16%3A3",
-		"description": "Artist's portfolio project",
-		"presentation": "Coming Soon"
-	}
+  {
+    "id": 1,
+    "wip": true,
+    "title": "Matcha Journal",
+    "cover": {
+      "path": "projects/project.png",
+      "colour": "#000000"
+    },
+    "outline": "My first blog and first attempt at web design.",
+    "category": ["web"],
+    "year": 2020,
+    "team": null,
+    "description": ["Coming Soon"],
+    "techStack": [
+      { "name": "Godot", "logo": "projects/icons/verification.svg" },
+      {
+        "name": "Firebase Authentication",
+        "logo": "projects/icons/verification.svg"
+      },
+      { "name": "Cloud Firestore", "logo": "projects/icons/verification.svg" }
+    ],
+    "links": [{ "type": "website", "logo": "placeholder.png", "url": "#" }],
+    "gallery": null
+  },
+  {
+    "id": 2,
+    "wip": true,
+    "title": "Jama Lima",
+    "cover": {
+      "path": "projects/project.png",
+      "colour": "#000000"
+    },
+    "outline": "A match 3 game to market a restaurant",
+    "category": ["games"],
+    "year": 2021,
+    "team": null,
+    "description": [
+      "XQ News is a Reddit-inspired social media platform, developed to showcase full-stack capabilities.",
+      "Built with React.js and Express.js, it features efficient data management and real-time user interactions through a custom API."
+    ],
+    "techStack": [
+      { "name": "Adobe Photoshop", "logo": "projects/icons/verification.svg" },
+      {
+        "name": "Adobe Illustrator",
+        "logo": "projects/icons/verification.svg"
+      },
+      { "name": "Procreate", "logo": "projects/icons/verification.svg" }
+    ],
+    "links": null,
+    "gallery": null
+  },
+  {
+    "id": 3,
+    "wip": false,
+    "title": "Hilary King",
+    "cover": {
+      "path": "projects/project.png",
+      "colour": "#000000"
+    },
+    "outline": "Mid Century Murders: Web project for a game that will one day exist",
+    "category": ["web", "games"],
+    "year": 2022,
+    "team": null,
+    "description": [
+      "Hilary King Mysteries is a passion project born from my love for adventure games and mid-century aesthetics.",
+      "Originally conceived as a comic, I developed a website during my Digital Media studies to bring the character and her world to life.",
+      "The design draws inspiration from 1950s comic strips, featuring a unique horizontal scrolling layout that reflects my personal style."
+    ],
+    "techStack": [
+      { "name": "Webflow", "logo": "projects/icons/verification.svg" },
+      { "name": "HTML", "logo": "projects/icons/verification.svg" },
+      { "name": "CSS", "logo": "projects/icons/verification.svg" },
+      { "name": "MySQL", "logo": "projects/icons/verification.svg" },
+      { "name": "Figma", "logo": "projects/icons/verification.svg" }
+    ],
+    "links": [
+      {
+        "type": "website",
+        "logo": "projects/icons/web.svg",
+        "url": "https://hilary-king.webflow.io/"
+      }
+    ],
+    "gallery": null
+  },
+  {
+    "id": 4,
+    "wip": false,
+    "title": "Rob Moroto",
+    "cover": {
+      "path": "projects/rob-moroto-cover.png",
+      "colour": "#000000"
+    },
+    "outline": "Photographer's portfolio and online course platform",
+    "category": ["web", "UX"],
+    "year": 2022,
+    "team": null,
+    "description": [
+      "Design project for an estate photographer portfolio.",
+      "The website also function as a marketplace for photo-presets and a portal for a photography course."
+    ],
+    "techStack": [
+      { "name": "Figma", "logo": "projects/icons/verification.svg" },
+      { "name": "Webflow", "logo": "projects/icons/verification.svg" }
+    ],
+    "links": [
+      {
+        "type": "prototype",
+        "logo": "projects/icons/figma.svg",
+        "url": "https://www.figma.com/proto/GNv47IadcfY1tGShXPpv60/rob-moroto?node-id=0-1"
+      }
+    ],
+    "gallery": null
+  },
+  {
+    "id": 5,
+    "wip": false,
+    "title": "cARTe",
+    "cover": {
+      "path": "projects/carte-cover.png",
+      "colour": "#000000"
+    },
+    "outline": "A card game for learning about Art",
+    "category": ["games", "UX"],
+    "year": 2022,
+    "team": null,
+    "description": [
+      "Like many other people, I am particularly interested in the creative uses of Augmented Reality.",
+      "The name is a play on the words 'art' and 'carte', and if you pay attention to the logo, you might also find a reference to AR."
+    ],
+    "techStack": [
+      {
+        "name": "Adobe Illustrator",
+        "logo": "projects/icons/verification.svg"
+      },
+      { "name": "Figma", "logo": "projects/icons/verification.svg" },
+      { "name": "Blippar", "logo": "projects/icons/verification.svg" },
+      { "name": "8th Wall", "logo": "projects/icons/verification.svg" }
+    ],
+    "links": [
+      {
+        "type": "prototype",
+        "logo": "projects/icons/figma.svg",
+        "url": "https://www.figma.com/proto/sgOgRKMGdy4yMSky0ORWKb/cARTe?node-id=0-1&t=Ofb5LEbW3Vu0jCdy-1"
+      }
+    ],
+    "gallery": null
+  },
+  {
+    "id": 6,
+    "wip": false,
+    "title": "sparkLING",
+    "cover": {
+      "path": "projects/sparkling-cover.png",
+      "colour": "#000000"
+    },
+    "outline": "Exploring the use of storytelling to learn languages",
+    "category": ["games", "UX"],
+    "year": 2023,
+    "team": null,
+    "description": [
+      "SPARKling Quest is a gamified multi-language learning application.",
+      "With the help of multiple choices storylines, the game lets the users personalise their learning journey while keeping them engaged."
+    ],
+    "techStack": [
+      { "name": "Figma", "logo": "projects/icons/verification.svg" },
+      { "name": "Adobe Illustrator", "logo": "projects/icons/verification.svg" }
+    ],
+    "links": [
+      {
+        "type": "figma npm run devprototype",
+        "logo": "projects/icons/figma.svg",
+        "url": "https://www.figma.com/proto/2L98M8ztRUq44WkCFR6sNY/SparkLing-App?node-id=225-1911&t=mJbSALHFLiNUDsYu-1"
+      }
+    ],
+    "gallery": null
+  },
+  {
+    "id": 7,
+    "wip": false,
+    "title": "Artilab Gallery",
+    "cover": {
+      "path": "projects/artilab-cover.png",
+      "colour": "#000000"
+    },
+    "outline": "Website for an art gallery in Milan",
+    "category": ["web"],
+    "year": 2023,
+    "team": null,
+    "description": [
+      "I revitalized Artilab Gallery's online presence with a modern, responsive website that reflects the sophistication of Milan's contemporary art scene.",
+      "Inspired by their new minimalistic logo, I crafted a website that showcases exhibitions, artist profiles, and events, with plans to integrate an e-commerce section for online sales."
+    ],
+    "techStack": [
+      { "name": "WordPress", "logo": "projects/icons/verification.svg" },
+      { "name": "HTML", "logo": "projects/icons/verification.svg" },
+      { "name": "CSS", "logo": "projects/icons/verification.svg" },
+      { "name": "MySQL", "logo": "projects/icons/verification.svg" },
+      { "name": "MailerLite", "logo": "projects/icons/verification.svg" },
+      { "name": "Figma", "logo": "projects/icons/verification.svg" }
+    ],
+    "links": [
+      {
+        "type": "live website",
+        "logo": "projects/icons/web.svg",
+        "url": "https://www.artilab.gallery/"
+      }
+    ],
+    "gallery": null
+  },
+  {
+    "id": 8,
+    "wip": false,
+    "title": "XQ News",
+    "cover": {
+      "path": "projects/project.png",
+      "colour": "#000000"
+    },
+    "outline": "A social media inspired by Reddit",
+    "category": ["web"],
+    "year": 2024,
+    "team": null,
+    "description": [
+      "XQ News is a Reddit-inspired social media platform, developed to showcase full-stack capabilities.",
+      "Built with React.js and Express.js, it features efficient data management and real-time user interactions through a custom API."
+    ],
+    "techStack": [
+      { "name": "PostgreSQL", "logo": "projects/icons/verification.svg" },
+      { "name": "JavaScript", "logo": "projects/icons/verification.svg" },
+      { "name": "Express.JS", "logo": "projects/icons/verification.svg" },
+      { "name": "Axios", "logo": "projects/icons/verification.svg" },
+      { "name": "Supabase", "logo": "projects/icons/verification.svg" },
+      { "name": "Render", "logo": "projects/icons/verification.svg" },
+      { "name": "React.JS", "logo": "projects/icons/verification.svg" },
+      { "name": "Vite", "logo": "projects/icons/verification.svg" },
+      { "name": "Netlify", "logo": "projects/icons/verification.svg" }
+    ],
+    "links": [
+      {
+        "type": "repo",
+        "logo": "projects/icons/github.svg",
+        "url": "https://github.com/XiaoQuark/nc-news-frontend"
+      },
+      {
+        "type": "website",
+        "logo": "projects/icons/web.svg",
+        "url": "https://xqnews.netlify.app/"
+      }
+    ],
+    "gallery": null
+  },
+  {
+    "id": 9,
+    "wip": false,
+    "title": "ekanS",
+    "cover": {
+      "path": "projects/ekans-cover.jpg",
+      "colour": "#000000"
+    },
+    "outline": "Classic Snake game... in reverse!",
+    "category": ["games"],
+    "year": 2024,
+    "team": null,
+    "description": [
+      "ekanS is a fresh twist on the classic Snake game... played in reverse!",
+      "Developed as part of a bootcamp project, it allowed our team to dive into Object Oriented Programming and explore game development with the GoDot engine."
+    ],
+    "techStack": [
+      { "name": "Godot", "logo": "projects/icons/verification.svg" },
+      {
+        "name": "Firebase Authentication",
+        "logo": "projects/icons/verification.svg"
+      },
+      { "name": "Cloud Firestore", "logo": "projects/icons/verification.svg" }
+    ],
+    "links": [
+      {
+        "type": "repo",
+        "logo": "projects/icons/github.svg",
+        "url": "https://github.com/house-of-the-badger/ekansREBORN"
+      }
+    ],
+    "gallery": null
+  },
+  {
+    "id": 10,
+    "wip": true,
+    "title": "SudokuPal",
+    "cover": {
+      "path": "projects/project.png",
+      "colour": "#000000"
+    },
+    "outline": "You do the logic, and SudokuPal does the boring math. Everybody wins!",
+    "category": ["games"],
+    "year": 2024,
+    "team": null,
+    "description": [
+      "SudokuPal assists players in solving Sudoku puzzles by automating calculations.",
+      "Future updates include advanced features like hints and custom puzzle generation."
+    ],
+    "techStack": [
+      { "name": "Python", "logo": "projects/icons/verification.svg" },
+      { "name": "Django", "logo": "projects/icons/verification.svg" }
+    ],
+    "links": [
+      {
+        "type": "repo",
+        "logo": "projects/icons/github.svg",
+        "url": "https://github.com/XiaoQuark/sudoku-pal"
+      }
+    ],
+    "gallery": null
+  },
+  {
+    "id": 11,
+    "wip": true,
+    "title": "LiveScapes",
+    "cover": {
+      "path": "projects/project.png",
+      "colour": "#000000"
+    },
+    "outline": "You do the logic, and your pal does the boring math. For sudoku fans",
+    "category": ["web"],
+    "year": 2024,
+    "team": null,
+    "description": [
+      "LiveScapes is a dynamic web project aimed at integrating interactive maps with user-generated content.",
+      "Built with a mobile-first approach, it offers seamless navigation and an engaging user experience."
+    ],
+    "techStack": [
+      { "name": "Figma", "logo": "projects/icons/verification.svg" },
+      { "name": "TypeScript", "logo": "projects/icons/verification.svg" },
+      { "name": "Tailwind CSS", "logo": "projects/icons/verification.svg" },
+      { "name": "React", "logo": "projects/icons/verification.svg" },
+      { "name": "Maplibre", "logo": "projects/icons/verification.svg" }
+    ],
+    "links": [
+      {
+        "type": "repo",
+        "logo": "projects/icons/github.svg",
+        "url": null
+      }
+    ],
+    "gallery": null
+  }
 ]

@@ -1,224 +1,224 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 :root {
-	--header-height: 3rem;
-	/* Colours  */
-	--hue: 0;
-	--sat: 0%;
-	--title-colour: hsl(var(--hue), var(--sat), 20%);
-	--title-colour-dark: hsl(var(--hue), var(--sat), 0%);
-	--text-colour: hsl(var(--hue), var(--sat), 46%);
-	--body-colour: hsl(var(--hue), var(--sat), 98%);
-	--container-colour: #fff;
+  --header-height: 3rem;
+  /* Colours  */
+  --hue: 0;
+  --sat: 0%;
+  --title-colour: hsl(var(--hue), var(--sat), 20%);
+  --title-colour-dark: hsl(var(--hue), var(--sat), 0%);
+  --text-colour: hsl(var(--hue), var(--sat), 46%);
+  --body-colour: hsl(var(--hue), var(--sat), 98%);
+  --container-colour: #fff;
 
-	/*--color-dark: #0d0106;  licorice */
-	/*--color-primary: #3626a7;  zafre */
-	/*--color-secondary: #657ed4;  glaucous */
-	/*--color-pop: #ec3b5f; /* amaranth */
-	/*--color-light: #edf7f6;  azure */
+  /*--color-dark: #0d0106;  licorice */
+  /*--color-primary: #3626a7;  zafre */
+  /*--color-secondary: #657ed4;  glaucous */
+  /*--color-pop: #ec3b5f; /* amaranth */
+  /*--color-light: #edf7f6;  azure */
 
-	/* Fonts */
-	--title-font: "Space Mono", monospace;
-	--body-font: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-		"Lucida Sans Unicode", sans-serif;
+  /* Fonts */
+  --title-font: "Space Mono", monospace;
+  --body-font: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", sans-serif;
 
-	/* Font size */
-	--big-font-size: 3.25rem;
-	--h1-font-size: 2.25rem;
-	--h2-font-size: 1.5rem;
-	--h3-font-size: 1.25rem;
-	--normal-font-size: 1rem;
-	--small-font-size: 0.875rem;
-	--smaller-font-size: 0.813rem;
-	--tiny-font-size: 0.625rem;
+  /* Font size */
+  --big-font-size: 3.25rem;
+  --h1-font-size: 2.75rem;
+  --h2-font-size: 2.25rem;
+  --h3-font-size: 2rem;
+  --normal-font-size: 1.1rem;
+  --small-font-size: 0.95rem;
+  --smaller-font-size: 0.85rem;
+  --tiny-font-size: 0.65rem;
 
-	/* Font weight */
-	--font-normal-weight: 400;
-	--font-dark-weight: 500;
-	--font-bold-weight: 600;
-	--font-lite-weight: 300;
-	--font-thin-weight: 200;
-	--font-title--weight: 700;
+  /* Font weight */
+  --font-normal-weight: 400;
+  --font-dark-weight: 500;
+  --font-bold-weight: 600;
+  --font-lite-weight: 300;
+  --font-thin-weight: 200;
+  --font-title--weight: 700;
 
-	/* Bottom margins */
-	--bm-0-25: 0.25rem;
-	--bm-0-5: 0.5rem;
-	--bm-0-75: 0.75rem;
-	--bm-1: 1rem;
-	--bm-1-5: 1.5rem;
-	--bm-2: 2rem;
-	--bm-2-5: 2.5rem;
-	--bm-3: 3rem;
+  /* Bottom margins */
+  --bm-0-25: 0.25rem;
+  --bm-0-5: 0.5rem;
+  --bm-0-75: 0.75rem;
+  --bm-1: 1rem;
+  --bm-1-5: 1.5rem;
+  --bm-2: 2rem;
+  --bm-2-5: 2.5rem;
+  --bm-3: 3rem;
 
-	/* Z index */
-	--z-tooltip: 10;
-	--z-fixed: 100;
-	--z-modal: 1000;
-	--z-toggle-menu: 200;
+  /* Z index */
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  --z-modal: 1000;
+  --z-toggle-menu: 200;
 }
 
 /* responsive fonts */
 @media screen and (max-width: 922px) {
-	:root {
-		--big-font-size: 2.75rem;
-		--h1-font-size: 1.5rem;
-		--h2-font-size: 1.25rem;
-		--h3-font-size: 1rem;
-		--normal-font-size: 0.938rem;
-		--small-font-size: 0.813rem;
-		--smaller-font-size: 0.75rem;
-	}
+  :root {
+    --big-font-size: 3rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.75rem;
+    --h3-font-size: 1.5rem;
+    --normal-font-size: 1rem;
+    --small-font-size: 0.8rem;
+    --smaller-font-size: 0.75rem;
+  }
 }
 
 /* Base */
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body,
 button,
 input,
 textarea {
-	font-family: var(--body-font);
-	font-size: var(--normal-font-size);
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
 }
 
 body {
-	background-color: var(--body-colour);
-	color: var(--text-colour);
+  background-color: var(--body-colour);
+  color: var(--text-colour);
 }
 
 h1 {
-	font-family: var(--title-font);
-	color: var(--title-colour);
-	font-weight: var(--title-weight);
+  font-family: var(--title-font);
+  color: var(--title-colour);
+  font-weight: var(--title-weight);
 }
 
 h2,
 h3 {
-	color: var(--title-colour);
-	font-weight: var(--font-bold-weight);
+  color: var(--title-colour);
+  font-weight: var(--font-bold-weight);
 }
 
 ul {
-	list-style: none;
+  list-style: none;
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 button {
-	cursor: pointer;
-	border: none;
-	outline: none;
+  cursor: pointer;
+  border: none;
+  outline: none;
 }
 
 img {
-	max-width: 100%;
-	height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 /* reusable CSS classes */
 .section {
-	padding: 6rem 0 2rem;
+  padding: 2rem 0 2rem;
 }
 
 .section-title {
-	font-size: var(--h1-font-size);
-	color: var(--title-colour);
+  font-size: var(--h1-font-size);
+  color: var(--title-colour);
 }
 
 .section-subtitle {
-	display: block;
-	font-size: var(--small-font-size);
-	margin-bottom: 4rem;
+  display: block;
+  font-size: var(--small-font-size);
+  margin-bottom: 3rem;
 }
 
 .section-title,
 .section-subtitle {
-	text-align: center;
+  text-align: center;
 }
 /* Layout */
 
 .container {
-	max-width: 968px;
-	margin-left: auto;
-	margin-right: auto;
+  max-width: 968px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .grid {
-	display: grid;
-	gap: 1.5rem;
+  display: grid;
+  gap: 1.5rem;
 }
 
 /* Buttons */
 .button {
-	display: inline-block;
-	background-color: var(--title-colour);
-	color: var(--container-colour);
-	padding: 1rem 1rem;
-	border-radius: 0.75rem;
-	font-weight: var(--font-dark-weight);
+  display: inline-block;
+  background-color: var(--title-colour);
+  color: var(--container-colour);
+  padding: 1rem 1rem;
+  border-radius: 0.75rem;
+  font-weight: var(--font-dark-weight);
 }
 
 .button:hover {
-	background-color: var(--title-colour-dark);
+  background-color: var(--title-colour-dark);
 }
 
 .button-icon {
-	margin-left: var(--bm-0-5);
+  margin-left: var(--bm-0-5);
 }
 
 .button-flex {
-	display: inline-flex;
-	align-items: center;
+  display: inline-flex;
+  align-items: center;
 }
 /* Breakpoints */
 @media screen and (max-width: 992px) {
-	.container {
-		margin-left: var(--bm-1-5);
-		margin-right: var(--bm-1-5);
-	}
-	.button {
-		padding: 0.75rem 0.75rem;
-		font-size: var(--normal-font-size);
-		border-radius: 0.5rem;
-	}
+  .container {
+    margin-left: var(--bm-1-5);
+    margin-right: var(--bm-1-5);
+  }
+  .button {
+    padding: 0.75rem 0.75rem;
+    font-size: var(--normal-font-size);
+    border-radius: 0.5rem;
+  }
 
-	.button-icon {
-		width: 22px;
-		height: 22px;
-	}
+  .button-icon {
+    width: 22px;
+    height: 22px;
+  }
 }
 
 @media screen and (max-width: 766px) {
-	body {
-		margin: 0 0 var(--header-height);
-	}
-	.section {
-		padding: 2rem 0 4rem;
-	}
-	.section-subtitle {
-		margin-bottom: var(--bm-3);
-	}
+  body {
+    margin: 0 0 var(--header-height);
+  }
+  .section {
+    padding: 2rem 0 4rem;
+  }
+  .section-subtitle {
+    margin-bottom: var(--bm-3);
+  }
 }
 
 @media screen and (max-width: 576px) {
 }
 
 @media screen and (max-width: 350px) {
-	:root {
-		--big-font-size: 2.25rem;
-	}
-	.container {
-		margin-left: var(--bm-1);
-		margin-right: var(--bm-1);
-	}
+  :root {
+    --big-font-size: 2.75rem;
+  }
+  .container {
+    margin-left: var(--bm-1);
+    margin-right: var(--bm-1);
+  }
 }
