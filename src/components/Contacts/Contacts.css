@@ -3,9 +3,9 @@
   margin-bottom: 4rem;
 }
 .contact-container {
-  grid-template-columns: repeat(2, max-content);
+  grid-template-columns: repeat(2, 1fr);
   justify-content: center;
-  column-gap: 6rem;
+  column-gap: 4rem;
 }
 
 .contact-title {
@@ -19,6 +19,21 @@
   display: grid;
   row-gap: 1rem;
   grid-template-columns: 300px;
+}
+
+.contact-img-container {
+  display: flex;
+  justify-content: center;
+}
+.contact-img {
+  width: 450px;
+  height: 450px;
+  object-fit: contain;
+}
+
+.contact-content {
+  display: flex;
+  justify-items: center;
 }
 
 .contact-card {
@@ -68,7 +83,7 @@
 }
 
 .contact-form {
-  width: 360px;
+  width: 100%;
 }
 
 .contact-form-div {
@@ -122,6 +137,11 @@
     grid-template-columns: 1fr;
     row-gap: 3rem;
   }
+
+  .contact-img-container {
+    display: none;
+  }
+
   .contact-info {
     justify-content: center;
   }
